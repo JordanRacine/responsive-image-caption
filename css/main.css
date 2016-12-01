@@ -29,10 +29,49 @@ h2 {
 }
 
 body {
-  margin: 0:
+  margin: 0;
 }
 
 .body {
   background-color: #e2e2e2;
   padding: 1.5rem 1.5rem 0;
+}
+
+@media only screen and (min-width: 38em) {
+
+  html {
+    font-size: 110%;
+    line-height: 1.4;
+  }
+
+  .body {
+    position: absolute;
+    background-color: rgba(0, 0, 0, .3);
+    border-radius: 10px;
+    color: #fff;
+    bottom: 1.3rem;
+    right: 1.3rem;
+    max-width: 20rem;
+  }
+
+  .figure {
+    position: relative;
+  }
+}
+
+@media only screen and (min-width: 60em) {
+
+  html {
+    font-size: 120%;
+    line-height: 1.5;
+  }
+
+}
+
+@media only screen and (min-width: 90em) {
+
+  html {
+    font-size: 130%;
+  }
+
 }
